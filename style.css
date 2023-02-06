@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(background.png);
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    height: 80vh;
+    width: 40vw;
+}
+
+.header > nav > ul > li {
+    display: inline;
+    padding: 25px;
+}
+
+nav {
+    position: relative;
+    top: 60px;
+    left: 400px;
+}
+
+
+#hm, #ab, #col, #ctg {
+  text-decoration: none;
+  color: rgb(96, 96, 96);   
+  font-size: 20px;
+}
+
+.urban-logo {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+
+.cart-icon {
+    position: absolute;
+    top: 50px;
+    right: 450px;
+}
+
+.container {
+    max-width: 500px;
+    max-height: 100px;
+    position: relative;
+    top: 230px;
+    left: 300px;
+}
+
+.button-col {
+    font-family: 'Nunito', sans-serif;
+    background-position: right center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #abb0e4 0%, #dac5f4  51%, #E55D87  100%);
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .container > h2 {
+      position: absolute;
+      top: 80px;
+      left: 0px;
+      padding: 2px
+    }
+    
+    .container > p {
+        position: absolute;
+        top: 160px;
+        left: 0;
+        padding: 2px;
+  }
+
+  .arrows-icons {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+  }
+
+  #bck, #nxt {
+    padding: 20px;
+  }
+
+  .model-png {
+      position: absolute;
+      bottom: 0px;
+      right: 0px; 
+  }
+
+.s-m-icons {
+    position: relative;
+}
+
+#face-ic {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+#inst-ic  {
+    position: absolute;
+    top: 260px;
+    left: 30px;
+}
+
+#twt-ic {
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+
+#in-ic {
+    position: absolute;
+    top: 380px;
+    left: 30px;
+}
+
+
+
+@media (max-width: 1290px) {
+    .cart-icon {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    } 
+    
+}
+
+@media (max-width: 1040px) {
+    .cart-icon {
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+    
+    #model {
+        width: 350px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    #model {
+        width: 200px;
+    }
+
+    nav {
+        width: 20px;
+        position: relative;
+        top: 60px;
+        left: 400px;
+    }
+    
+    .cart-icon {
+        position: absolute;
+        top: 50px;
+        right: 45px;
+    }
+
+    .container {
+        max-width: 600px;
+        max-height: 300px;
+        position: relative;
+        top: 150px;
+        left: 230px;
+    }
+
+    .container > h2 {
+        width: 105px;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        padding: 2px;
+      }
+      
+      .container > p {
+          width: 80px;
+          position: absolute;
+          top: 90px;
+          left: 120px;
+          padding: 2px;
+    }
+
+    .arrows-icons {
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        max-width: 200px;
+    }
+
+    #bck, #nxt {
+        padding: 20px;
+      }
+}
+
+@media (max-width: 568px) {
+    #model {
+        width: 150px;
+    }
+
+    nav {
+        width: 20px;
+        position: relative;
+        top: 60px;
+        left: 300px;
+    }
+}
